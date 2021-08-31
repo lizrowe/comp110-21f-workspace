@@ -1,8 +1,5 @@
-# TODO: Write docstring here
 """Part 1 of exercise 1."""
-# TODO: Initialize __author__ variable here
 __author__: str = "730403539"
-# TODO: Implement your program logic here
 name: str = input("What is your name? ")
 print("You entered: ", name)
 hype_statement_1: str = input(name + ", you rock!")
