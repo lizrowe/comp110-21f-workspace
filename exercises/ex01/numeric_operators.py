@@ -1,5 +1,5 @@
 """Part 2 of exercise 1."""
-__author__: str = "730403539"
+__author__ = "730403539"
 left_hand_number: str = input("Left-hand side: ")
 right_hand_number: str = input("Right-hand side: ")
 left_hand_number_int: int = int(left_hand_number)
