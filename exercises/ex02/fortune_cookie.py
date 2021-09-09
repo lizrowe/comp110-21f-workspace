@@ -29,4 +29,4 @@ else:
         else:
             print("You're gonna be a millionaire.")
 
-print("Now, go spread postive vibes!")
+print("Now, go spread positive vibes!")
