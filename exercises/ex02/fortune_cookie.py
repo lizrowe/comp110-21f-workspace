@@ -19,14 +19,14 @@ print("Your fortune cookie says...")
 rand_int: int = randint(1, 4)
 
 if rand_int == 1:
-    print("You're gonna kill this assessment!")
+    print("You're gonna kill this assessment.")
 else:
     if rand_int == 2:
-        print("You're gonna get a 4.0 this semester!")
+        print("You're gonna get a 4.0 this semester.")
     else:
         if rand_int == 3:
-            print("Love is coming your way!")
+            print("Love is coming your way.")
         else:
-            print("You're gonna be a millionaire!")
+            print("You're gonna be a millionaire.")
 
 print("Now, go spread postive vibes!")
