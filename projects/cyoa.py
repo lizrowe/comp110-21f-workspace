@@ -10,7 +10,8 @@ YAY_EMOJI: str
 SAD_EMOJI: str
 
 
-def main():
+def main() -> None:
+    """The main function."""
     global points
     points = 0
     global player
@@ -31,12 +32,14 @@ def main():
 
 
 def greet() -> None:
+    """The game greeting."""
     global player
     player = str(input("What's your name?"))
     print(f"Hello, {player}, the Fire Nation is attacking! Choose your team and help save the world from Fire Nation domination!")
     
 
 def experience() -> None:
+    """The first game experience."""
     global player
     global points
     global BRRR_FACE
@@ -55,6 +58,7 @@ def experience() -> None:
 
 
 def experience_2() -> None:
+    """The second game experience."""
     global player
     global points
     global YAY_EMOJI
@@ -69,6 +73,7 @@ def experience_2() -> None:
 
 
 def final(a: int, b: int) -> int:
+    """The final task!"""
     global player
     global points
     global YAY_EMOJI
