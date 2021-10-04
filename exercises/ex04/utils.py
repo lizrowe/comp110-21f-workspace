@@ -9,6 +9,8 @@ __author__ = "730403539"
 def all(number_list: list[int], number: int) -> bool:
     """Return True if the number is in the number list, False otherwise."""
     i: int = 0
+    if len(number_list) == 0:
+        return False
     while i < len(number_list):
         if number_list[i] != number:
             return False
@@ -19,6 +21,8 @@ def all(number_list: list[int], number: int) -> bool:
 def is_equal(number_list_one: list[int], number_list_two: list[int]) -> bool:
     """Return True if lists are equal, False otherwise."""
     i: int = 0
+    if len(number_list_one) != len(number_list_two):
+        return False
     while i < len(number_list_one):
         if number_list_one[i] != number_list_two[i]:
             return False
@@ -27,5 +31,8 @@ def is_equal(number_list_one: list[int], number_list_two: list[int]) -> bool:
 
 
 def max(input: list[int]) -> int:
+    """Return the largest value in the List."""
     if len(input) == 0:
         raise ValueError("max() arg is an empty List")
+    else:
+        return largest 
