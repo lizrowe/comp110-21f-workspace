@@ -8,10 +8,13 @@ __author__ = "730403539"
 def only_evens(number_list: list[int]) -> list[int]:
     """Return only even numbers from the list."""
     i: int = 0
-    o: list = []
+    empty_list: list = []
+    final_list: list[int] = []
     if len(number_list) == 0:
-        return o
+        return empty_list
     while i < len(number_list):
-        if i % 2 == 0:
-            return i
+        if number_list[i] % 2 == 0:
+            final_list.append(number_list[i])
         i += 1
+    
+    return final_list
