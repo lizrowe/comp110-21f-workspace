@@ -2,8 +2,6 @@
 
 __author__ = "730403539"
 
-# Define your functions below
-
 from csv import DictReader
 
 
